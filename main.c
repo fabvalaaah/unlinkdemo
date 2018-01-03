@@ -149,7 +149,7 @@ int main(int argc, char** argv) {
 
     /* Reading and printing the content of the unlinked file */
     rewind(fp);
-    while (NULL != fgets(line, MAX_LINE_SIZE, fp)) {
+    while (fgets(line, MAX_LINE_SIZE, fp)) {
         fprintf(stdout, "%s", line);
     }
     /* ------- */
@@ -173,7 +173,7 @@ int main(int argc, char** argv) {
     sleep(5); /* Pausing for demonstration purpose only */
 
     /* Closing the unlinked file (and definitely losing its reference) */
-    if (NULL != fp) {
+    if (fp) {
         fclose(fp);
     }
     /* ------- */
