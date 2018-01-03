@@ -6,7 +6,7 @@ Linux 16.04.3 LTS x64.
 
 This piece of software shows how a program that creates/opens a file and
 immediately unlinks it from the file-system (looks like it has been deleted) is
-still able to manipulate it as long a reference to the file handler is kept.
+still able to manipulate it as long as a reference to the file handler is kept.
 
 Usage example : "./unlinkdemo foo" will unlink a file called "foo".
 
