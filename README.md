@@ -8,7 +8,7 @@ This piece of software shows how a program that creates/opens a file and
 immediately unlinks it from the file-system (looks like it has been deleted) is
 still able to manipulate it as long as a reference to the file handler is kept.
 
-Usage example : "./unlinkdemo foo" will unlink a file called "foo".
+Usage example: "./unlinkdemo foo" will unlink a file called "foo".
 
 DONATION:
 As I share these sources for commercial use too, maybe you could consider
