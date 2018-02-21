@@ -1,5 +1,5 @@
 # unlinkdemo
-Unlinking file demonstrator for Linux.
+C unlinking file demonstration for Linux.
 
 This is a C NetBeans project, compiled with GCC 5.4.0 and tested with Ubuntu
 Linux 16.04.3 LTS x64.
